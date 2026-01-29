@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamline POS | Fast, Offline, Reliable</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); }
+        .hero-gradient { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 glass border-b border-indigo-100 py-4 bg-white/80">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-bold text-indigo-600">Streamline<span class="text-gray-400">.</span></div>
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold">
+                <a href="#features" class="hover:text-indigo-600">Features</a>
+                <a href="#pricing" class="hover:text-indigo-600">Pricing</a>
+                <a href="#demo" class="hover:text-indigo-600">Demo</a>
+            </nav>
+            <a href="#" class="bg-indigo-600 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg shadow-indigo-200">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-20 hero-gradient text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Run Your Shop Smarter.<br><span class="text-indigo-200">Even Offline.</span></h1>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-10 opacity-90">The fastest POS system built for Sri Lankan retail and service businesses. Sell anytime, sync later.</p>
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+                <button class="bg-white text-indigo-600 px-8 py-4 rounded-xl font-bold text-lg">Start Free Trial</button>
+                <button class="border-2 border-white/30 hover:bg-white/10 px-8 py-4 rounded-xl font-bold text-lg">Watch Demo</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="p-8 border rounded-3xl hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Offline Power</h3>
+                    <p class="text-gray-500">Internet gone? No problem. Ring up sales, calculate change, and print receipts without a connection. We sync everything automatically when you're back.</p>
+                </div>
+                <div class="p-8 border rounded-3xl hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-purple-100 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Shift Reconciliation</h3>
+                    <p class="text-gray-500">End your day with peace of mind. Streamline tracks cash expected vs cash in hand, highlighting gaps instantly.</p>
+                </div>
+                <div class="p-8 border rounded-3xl hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-pink-100 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Modular Built</h3>
+                    <p class="text-gray-500">Only pay for what you need. From Inventory to Salon booking, activate modules that suit your business size.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-extrabold text-center mb-16">Simple Pricing for Sri Lankan Shops</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white p-8 rounded-3xl border shadow-sm">
+                    <h4 class="font-bold text-gray-500 mb-2">FREE</h4>
+                    <div class="text-4xl font-extrabold mb-6">Rs. 0 <span class="text-lg font-normal text-gray-400">/mo</span></div>
+                    <ul class="space-y-4 mb-10 text-gray-600">
+                        <li>1 branch / 1 Cashier</li>
+                        <li>Basic POS</li>
+                        <li>Local Reports</li>
+                    </ul>
+                    <button class="w-full border py-3 rounded-xl font-bold">Start Free</button>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border-4 border-indigo-600 shadow-xl relative scale-105">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-indigo-600 text-white px-4 py-1 rounded-full text-xs font-bold uppercase">Popular</div>
+                    <h4 class="font-bold text-indigo-600 mb-2">STARTER</h4>
+                    <div class="text-4xl font-extrabold mb-6">Rs. 2,500 <span class="text-lg font-normal text-gray-400">/mo</span></div>
+                    <ul class="space-y-4 mb-10 text-gray-600">
+                        <li>1 branch / 3 Cashiers</li>
+                        <li>Inventory Management</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <button class="w-full bg-indigo-600 text-white py-3 rounded-xl font-bold">Recommended</button>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border shadow-sm">
+                    <h4 class="font-bold text-gray-500 mb-2">PRO</h4>
+                    <div class="text-4xl font-extrabold mb-6">Rs. 6,500 <span class="text-lg font-normal text-gray-400">/mo</span></div>
+                    <ul class="space-y-4 mb-10 text-gray-600">
+                        <li>Unlimited Everything</li>
+                        <li>Premium Themes</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <button class="w-full border py-3 rounded-xl font-bold">Go Pro</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-900 text-indigo-200 py-20">
+        <div class="container mx-auto px-6 grid md:grid-cols-4 gap-12">
+            <div class="md:col-span-2">
+                <div class="text-3xl font-bold text-white mb-6">Streamline.</div>
+                <p class="max-w-sm mb-8 opacity-80">Streamline is dedicated to powering small and medium businesses in Sri Lanka with modern tools that work.</p>
+                <div class="flex space-x-4">
+                   <!-- Socials -->
+                </div>
+            </div>
+            <div>
+                <h5 class="text-white font-bold mb-6 text-lg">Product</h5>
+                <ul class="space-y-4">
+                    <li><a href="#" class="hover:text-white">Features</a></li>
+                    <li><a href="#" class="hover:text-white">Pricing</a></li>
+                    <li><a href="#" class="hover:text-white">App Store</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-white font-bold mb-6 text-lg">Company</h5>
+                <ul class="space-y-4">
+                    <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                    <li><a href="#" class="hover:text-white">WhatsApp Support</a></li>
+                    <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
